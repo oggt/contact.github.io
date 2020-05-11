@@ -1,0 +1,81 @@
+h1{
+    text-align: center;
+    background-color: #8b41d6;;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px ;  
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 4px  0 4px 0;
+}
+body{
+    background-color:black;
+    margin:0;
+    padding:0;
+}
+form{
+    background-color: rgb(232, 214, 229);
+    border: none;
+    width:100%;
+    max-width: 320px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 90px;
+    position:center;
+    box-shadow: 20px black;
+    border-radius: 10px;
+}
+.wrapper{
+    padding: 0px 20px 20px 20px;
+   
+}
+.box{
+    
+    background-color: white;
+    padding-left: 3px;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+#fn{
+    border-radius: 3px;
+    margin: 2px 2px;
+    border: none;
+    outline: none;
+    }
+#ln{
+    border-radius: 3px;
+    margin-left: 2px;
+    border: none;
+    outline: none;
+    }
+#email{
+    border-radius: 3px;
+    margin-left: 2px;
+    border: none;
+    outline: none;
+    
+    } 
+#contact{
+    border-radius: 3px;
+    margin-left: 2px;
+    border: none;
+    outline: none;
+    width: 270px;
+} 
+#msg{
+    border-radius: 3px;
+    margin-left: 2px;
+    border: none;
+    outline: none;
+    background: none;
+    width: 269px;
+}  
+#sub{
+    padding:5px;
+    width:280px;
+    background-color: #8b41d6;;
+    font-weight: 100;
+}
+@media screen and (max-width:460px){
+    body{
+        margin: 22px auto 0;
+    }
+}
