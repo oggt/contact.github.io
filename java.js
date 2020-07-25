@@ -16,23 +16,23 @@ var firebaseConfig = {
 
 function submitForm(e){
 	e.preventDefault();
-	var first_name = getInputVal('first_name');
-	var last_name = getInputVal('last_name');
+	var name = getInputVal('first name');
+	var name = getInputVal('lastname');
 	var contact = getInputVal('contact');
 	var email = getInputVal('email');
 	var message = getInputVal('message');
-	saveMessage(first_name,last_name,contact,email,message);
+	saveMessage(first name,last name,contact,email,message);
 
 }
 function getInputVal(id) {
 	return document.getElementById(id).value;
 	// body...
 }
-function saveMessage(first_name,last_name,contact,email,message){
+function saveMessage(first name,last name,contact,email,message){
 	var newMessageRef = messagesRef.push();
 	newMessageRef.set({
-		first_name:first_name,
-        last_name:last_name,
+		name:first name,
+        name:last name,
         contact:contact,
 		email:email,
 		message:message,
